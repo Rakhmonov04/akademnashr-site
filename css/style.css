@@ -2,6 +2,12 @@
     text-decoration: none;
 } */
 
+body{
+    font-style: 16px;
+    line-height: 1.5;
+    font-family: "Roboto", "Arial",serif;
+    letter-spacing: 0.5;
+}
 a {
     text-decoration: none;
 }
@@ -35,25 +41,20 @@ a {
     height: 3px;
     background-color: #ff7500;
 }
-.hero-img{
-    width: 510px;
-    height: 510px;
-}
 .hero h2{
     font-size: 40px;
     line-height: 1.2;
-    letter-spacing: 0.5;
+    font-family: "Roboto Condensed", "Ariel", sans-serif ;
 }
-.hero p{
-    font-style: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
+.hero-img{
+    width: 510px;
+    height: 510px;
 }
 .features h2{
     width: 440px;
     font-size: 72px;
     line-height: 1.2;
-    letter-spacing: 0.5px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .features-icon{
     width: 100px;
@@ -63,12 +64,7 @@ a {
 .features h3{
     font-size: 24px;
     line-height: 1.2;
-    letter-spacing: 0.5px ;
-}
-.features p{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 ul li{
     width: 340px;
@@ -83,10 +79,7 @@ ul li{
 .promo-content h2{
     font-style: 40px;
     line-height: 48px;
-}
-.promo-content p {
-    font-style: 16px;
-    line-height: 1.5;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .promo-highlight {
     color: #ff7500;
@@ -106,9 +99,8 @@ ul li{
 }
 .site-footer-links{
     width: 224px;
+    line-height: 19px;
 }
 .site-footer-links a {
     color: #252420;
-    font-style: 16px;
-    line-height: 19px;
 }

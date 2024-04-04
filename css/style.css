@@ -2,6 +2,7 @@
     text-decoration: none;
 } */
 
+
 body{
     font-style: 16px;
     line-height: 1.5;
@@ -14,6 +15,14 @@ a {
 
 .site-header{
     background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-header-nav{
+    display: flex;
+    align-items: center;
 }
 .sitenav-link{
     color: #000;
@@ -22,6 +31,10 @@ a {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+.sitenav-list{
+    list-style: none;
+    display: flex;
 }
 .main-link{
     color: #fff;

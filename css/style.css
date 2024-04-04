@@ -79,7 +79,7 @@ a {
     line-height: 1.2;
     font-family: "Roboto Condensed", sans-serif;
 }
-ul li{
+.features ul li {
     width: 340px;
 }
 .promo{
